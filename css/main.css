@@ -333,6 +333,23 @@ a:visited { color: #205caa; }
   height:200px;
 }
 
+#consultants {
+  text-align: center;
+}
+
+.consultant .name {
+  display: inline-block;
+  vertical-align: middle;
+  width: 360px;
+  margin: 20px 60px 20px 60px;
+}
+
+.consultant img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+}
+
 /* media queries */
 /* ----------------------------------------------------------*/
 
