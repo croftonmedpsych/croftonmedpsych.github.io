@@ -350,7 +350,12 @@ a:visited { color: #205caa; }
   vertical-align: middle;
   width: 100px;
 }
-
+.associations {
+    display: none;
+}
+.rooms img {
+  width: 100px;
+}
 /* media queries */
 /* ----------------------------------------------------------*/
 
@@ -433,5 +438,19 @@ a:visited { color: #205caa; }
     width: auto;
     margin: 0 0 15px; }
 
+  .consultant .name {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .consultant img {
+    display: none;
+  }
+  
+  .associations {
+    display: inline-block;
+  }
 }
 
