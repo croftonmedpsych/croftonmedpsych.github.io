@@ -350,8 +350,8 @@ a:visited { color: #205caa; }
   vertical-align: middle;
   width: 100px;
 }
-.associations {
-    display: none;
+.associations a {
+    margin-right: 20px;
 }
 
 /* media queries */
@@ -445,10 +445,6 @@ a:visited { color: #205caa; }
 
   .consultant img {
     display: none;
-  }
-  
-  .associations {
-    display: inline-block;
   }
 }
 
