@@ -436,6 +436,10 @@ a:visited { color: #205caa; }
     width: auto;
     margin: 0 0 15px; }
 
+  .consultant {
+    margin-bottom: 20px;
+  }
+
   .consultant .name {
     display: inline-block;
     vertical-align: middle;
