@@ -1,9 +1,9 @@
 # Site settings
 title: Crofton Medical Psychology Limited
-email: jane_mg@hotmail.com
+email: info@croftonmedpsych.com
 description: "Psychiatric and Psychological assessments and treatment."
 baseurl: ""
-url: "http://croftonmedpsych.github.io"
+url: "http://www.croftonmedpsych.com"
 
 # Build settings
 markdown: kramdown
