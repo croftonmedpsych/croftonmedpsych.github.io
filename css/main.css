@@ -18,9 +18,16 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
+/* Customise links */
+a         { color: #2a7ae2; }
+a:hover   { color: #000; }
 a:visited { color: #205caa; }
+a.site-title       { text-decoration: none; }
+a.site-title:hover { color: #000; text-decoration: underline; }
+
+ul, li {
+  margin-left: 10px;
+}
 
 /* Utility */
 
@@ -147,7 +154,11 @@ a:visited { color: #205caa; }
 
 .home { min-height: 200px; }
 
-.home h1 { margin-bottom: 25px; }
+.home h1 { 
+  margin-bottom: 25px; 
+  font-size: 18px;
+  font-weight: bold;
+}
 
 .home p, .home li { margin-bottom: 10px; }
 
@@ -335,31 +346,6 @@ a:visited { color: #205caa; }
   vertical-align: top;
 }
 
-#consultants {
-  text-align: center;
-}
-
-.consultant {
-  margin-bottom: 40px;
-}
-
-.consultant .name {
-  display: inline-block;
-  vertical-align: middle;
-  width: 360px;
-  margin: 20px 60px 20px 60px;
-}
-
-.consultant img {
-  display: inline-block;
-  vertical-align: middle;
-  width: 100px;
-}
-.associations a {
-    margin-right: 20px;
-}
-
-
 /* media queries */
 /* ----------------------------------------------------------*/
 
@@ -443,15 +429,5 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; 
   }
 
-  .consultant .name {
-    display: inline-block;
-    vertical-align: middle;
-    width: 100%;
-    margin: 20px 0px 20px 0px;
-  }
-
-  .consultant img {
-    display: none;
-  }
 }
 
