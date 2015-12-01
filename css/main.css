@@ -26,7 +26,8 @@ a.site-title       { text-decoration: none; }
 a.site-title:hover { color: #000; text-decoration: underline; }
 
 ul, li {
-  margin-left: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 /* Utility */
@@ -156,7 +157,7 @@ ul, li {
 
 .home h1 { 
   margin-bottom: 25px; 
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
 }
 

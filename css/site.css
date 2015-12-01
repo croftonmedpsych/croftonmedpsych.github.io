@@ -1,7 +1,8 @@
 /* -------------------- SITE SPECIFIC -------------------------- */
 
-ul, li {
-  margin-left: 10px;
+.home ul, .home li {
+  position: relative;
+  left: 10px;
 }
 
 .hero {
@@ -12,26 +13,7 @@ ul, li {
 .room:first-of-type {
   margin-bottom: 30px;
 }
-#consultants {
-  text-align: center;
-}
 
-.consultant {
-  margin-bottom: 40px;
-}
-
-.consultant .name {
-  display: inline-block;
-  vertical-align: middle;
-  width: 360px;
-  margin: 20px 60px 20px 60px;
-}
-
-.consultant img {
-  display: inline-block;
-  vertical-align: middle;
-  width: 100px;
-}
 .associations a {
     margin-right: 20px;
 }
@@ -58,10 +40,6 @@ ul, li {
 }
 
 @media screen and (min-width: 600px) {
-  /*.hero, .container {
-    display: inline-block;
-    vertical-align: top;
-  }*/
 
   .hero {
     /*margin: 0 20px;*/
@@ -80,5 +58,26 @@ ul, li {
     margin-left: 20px;
     vertical-align: top;
     margin-top: 40px;
+  }
+
+  #consultants {
+  text-align: center;
+}
+
+  .consultant {
+    margin-bottom: 40px;
+  }
+
+  .consultant .name {
+    display: inline-block;
+    vertical-align: middle;
+    width: 360px;
+    margin: 20px 60px 20px 60px;
+  }
+
+  .consultant img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
   }
 }
