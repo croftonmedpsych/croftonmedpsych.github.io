@@ -1,27 +1,41 @@
 /* -------------------- SITE SPECIFIC -------------------------- */
 
-.home ul, .home li {
-  position: relative;
-  left: 10px;
+/* Lists http://stackoverflow.com/questions/11737266/what-is-default-list-styling-css*/
+ul { 
+   list-style-type: disc; 
+   list-style-position: inside; 
+}
+ol { 
+   list-style-type: decimal; 
+   list-style-position: inside; 
+}
+ul ul, ol ul { 
+   list-style-type: circle; 
+   list-style-position: inside; 
+   margin-left: 15px; 
+}
+ol ol, ul ol { 
+   list-style-type: lower-latin; 
+   list-style-position: inside; 
+   margin-left: 15px; 
 }
 
-.hero {
+.media .img {
+  display: block;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 30px;
 }
+
+/*.page ul, .page li {
+  position: relative;
+  left: 10px;
+}*/
+
 .room:first-of-type {
   margin-bottom: 30px;
 }
 
 .associations a {
     margin-right: 20px;
-}
-.products img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
 }
 
 #consultants {
@@ -41,12 +55,29 @@
 
 @media screen and (min-width: 600px) {
 
-  .hero {
-    /*margin: 0 20px;*/
-    text-align: left;
-    width: 240px;
-    float: left;
-    min-height: 200px;
+  /* ====== media ====== */
+  /* http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
+
+  .media {margin:10px;}
+  .media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+  .media .img {display: initial; float:left; margin-right: 30px; height: 100%}
+  .media .img img{display:block;}
+  .media .imgExt{float:right; margin-left: 30px;}
+
+  /*.home .hero, .home .contents  {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .home .contents {
+    box-sizing: border-box;
+    width: 376px;
+    width: calc(576px-200px);
+
+  }*/
+
+  .home .hero {
+    padding-bottom: 100px;
   }
 
   .room {
@@ -61,8 +92,8 @@
   }
 
   #consultants {
-  text-align: center;
-}
+    text-align: center;
+  }
 
   .consultant {
     margin-bottom: 40px;
@@ -80,4 +111,14 @@
     vertical-align: middle;
     width: 100px;
   }
+
+  .product {
+    margin: 10px;
+  }
+
+  .products .product img {
+    width: 100px;
+    height: 147px;
+  }
+
 }

@@ -150,18 +150,24 @@ ul, li {
 }
 
 
-/* Home styles */
+/* Page styles */
 /* ----------------------------------------------------------*/
 
-.home { min-height: 200px; }
+.page { min-height: 200px; }
 
-.home h1 { 
+.page h1 { 
   margin-bottom: 25px; 
   font-size: 22px;
   font-weight: bold;
 }
 
-.home p, .home li { margin-bottom: 10px; }
+.page h2 { 
+  margin-bottom: 25px; 
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.page p, .page li { margin-bottom: 10px; }
 
 .posts { list-style-type: none; }
 
