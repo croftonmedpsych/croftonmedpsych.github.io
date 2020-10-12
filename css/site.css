@@ -38,19 +38,32 @@ ol ol, ul ol {
     margin-right: 20px;
 }
 
-#consultants {
-  text-align: left;
+.consultant:first-of-type {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
 }
 
-.consultant .name {
+.name {
+  margin-bottom: 20px;
+}
+
+#consultants {
+  text-align: center;
+}
+
+.consultant {
+  padding-bottom: 10px;
+}
+
+.consultant figure { 
   display: inline-block;
-  vertical-align: middle;
-  width: 100%;
-  margin: 20px 0px 20px 0px;
 }
 
 .consultant img {
-  display: none;
+  margin: 20px 20px 8px;
+  max-width: 240px;
+  max-height: 100px;
 }
 
 @media screen and (min-width: 600px) {
@@ -89,27 +102,6 @@ ol ol, ul ol {
     margin-left: 20px;
     vertical-align: top;
     margin-top: 40px;
-  }
-
-  #consultants {
-    text-align: center;
-  }
-
-  .consultant {
-    margin-bottom: 40px;
-  }
-
-  .consultant .name {
-    display: inline-block;
-    vertical-align: middle;
-    width: 360px;
-    margin: 20px 60px 20px 60px;
-  }
-
-  .consultant img {
-    display: inline-block;
-    vertical-align: middle;
-    width: 100px;
   }
 
   .product {
