@@ -1,23 +1,25 @@
 /* -------------------- SITE SPECIFIC -------------------------- */
 
 /* Lists http://stackoverflow.com/questions/11737266/what-is-default-list-styling-css*/
-ul { 
-   list-style-type: disc; 
-   list-style-position: inside; 
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
 }
-ol { 
-   list-style-type: decimal; 
-   list-style-position: inside; 
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
 }
-ul ul, ol ul { 
-   list-style-type: circle; 
-   list-style-position: inside; 
-   margin-left: 15px; 
+ul ul,
+ol ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-left: 15px;
 }
-ol ol, ul ol { 
-   list-style-type: lower-latin; 
-   list-style-position: inside; 
-   margin-left: 15px; 
+ol ol,
+ul ol {
+  list-style-type: lower-latin;
+  list-style-position: inside;
+  margin-left: 15px;
 }
 
 .media .img {
@@ -35,7 +37,7 @@ ol ol, ul ol {
 }
 
 .associations a {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .consultant:first-of-type {
@@ -56,7 +58,7 @@ ol ol, ul ol {
   padding-bottom: 10px;
 }
 
-.consultant figure { 
+.consultant figure {
   display: inline-block;
 }
 
@@ -66,16 +68,36 @@ ol ol, ul ol {
   max-height: 100px;
 }
 
-@media screen and (min-width: 600px) {
+.bps {
+  padding-bottom: 14px;
+}
 
+@media screen and (min-width: 600px) {
   /* ====== media ====== */
   /* http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
 
-  .media {margin:10px;}
-  .media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
-  .media .img {display: initial; float:left; margin-right: 30px; height: 100%}
-  .media .img img{display:block;}
-  .media .imgExt{float:right; margin-left: 30px;}
+  .media {
+    margin: 10px;
+  }
+  .media,
+  .bd {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1;
+  }
+  .media .img {
+    display: initial;
+    float: left;
+    margin-right: 30px;
+    height: 100%;
+  }
+  .media .img img {
+    display: block;
+  }
+  .media .imgExt {
+    float: right;
+    margin-left: 30px;
+  }
 
   /*.home .hero, .home .contents  {
     display: inline-block;
@@ -112,5 +134,4 @@ ol ol, ul ol {
     width: 100px;
     height: 147px;
   }
-
 }
