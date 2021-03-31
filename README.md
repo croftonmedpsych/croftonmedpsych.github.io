@@ -12,6 +12,12 @@
 bundle exec jekyll serve
 ```
 
+## Update dependencies
+
+```console
+bundle update 
+```
+
 ### Author
 
 [Louie Christie](https://www.louiechristie.com/)
